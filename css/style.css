@@ -108,17 +108,21 @@ table {
   font-weight: bold;
   color: #534340;
   background-image: linear-gradient(rgb(200, 255, 149), rgb(59, 139, 47));
-  width: 20px;
-  height: 20px;
+  width: 25px;
+  height: 25px;
   cursor: pointer;
 }
 
 .marked {
   background-color: rgb(237, 255, 201);
   background-image: none;
+  width: 25px;
+  height: 25px;
 }
 
 .mine-clicked {
   background-color: red;
   background-image: linear-gradient(rgb(255, 149, 149), rgb(139, 47, 47));
+  width: 25px;
+  height: 25px;
 }
