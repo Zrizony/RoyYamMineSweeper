@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>MineSweeper !</title>
+  </head>
+  <!-- Body -->
+  <body onload="init()" class="body">
+    <h1>MineSweeper</h1>
+    <!-- btn -->
+    <div class="botton">
+      <button onclick="init()" class="btn restart-btn">🙂</button>
+    </div>
+    <!-- settings -->
+    <div class="settings">
+      <span class="timer"></span>
+      <span class="line">|</span>
+      <span class="mines-counter"></span>
+      <span class="line">|</span>
+      <span class="lives"></span>
+    </div>
+    <!-- radio -->
+    <div>
+      <input type="radio" name="radio" value="Noob" onclick="init()" checked />
+      <label for="Noob">Noob</label>
+
+      <input type="radio" name="radio" value="Normal" onclick="init()" />
+      <label for="Normal">Normal</label>
+
+      <input type="radio" name="radio" value="Pro" onclick="init()" />
+      <label for="Pro">Pro</label>
+    </div>
+    <hr />
+    <!-- board -->
+    <div class="game">
+      <table border="1" cellpadding="10">
+        <tbody class="board"></tbody>
+      </table>
+    </div>
+
+    <script src="js/app.js"></script>
+    <!-- footer -->
+    <footer><p>©Roy Yam</p></footer>
+  </body>
+</html>
