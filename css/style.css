@@ -32,26 +32,14 @@ hr {
 
 table {
   background-color: #bb9981;
-  margin: 20px auto 20px auto;
-}
-
-.footer {
-  font-size: 20px;
-  color: #f5f5f5;
-  background-color: #534340;
-  width: 100%;
-  height: 5%;
-  margin: auto;
-  position: absolute;
-  padding: 0.5rem;
-  bottom: 0;
+  margin: 25px auto 25px auto;
 }
 
 /* Classes */
 
 .btn {
   font-family: Arial;
-  font-size: 20px;
+  font-size: 25px;
   text-decoration: none;
   color: #ffffff;
   background: #34d96e;
@@ -125,4 +113,20 @@ table {
   background-image: linear-gradient(rgb(255, 149, 149), rgb(139, 47, 47));
   width: 25px;
   height: 25px;
+}
+
+.footer {
+  font-size: 25px;
+  color: #f5f5f5;
+  background-color: #534340;
+  position: fixed;
+  margin: auto;
+  width: 100%;
+  height: 5%;
+  bottom: 0px;
+  padding: 10px 0 5px 0;
+}
+
+.my-name {
+  margin: auto;
 }
