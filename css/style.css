@@ -121,8 +121,8 @@ table {
   background-color: #534340;
   position: fixed;
   margin: auto;
-  width: 100%;
   height: 5%;
+  width: 100%;
   bottom: 0px;
   padding: 10px 0 5px 0;
 }
