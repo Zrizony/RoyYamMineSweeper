@@ -34,12 +34,16 @@ table {
   margin: 20px auto 20px auto;
 }
 
-footer {
+.footer {
   font-size: 20px;
   color: #f5f5f5;
   background-color: #534340;
-  position: relative;
+  margin: 0 auto;
   padding: 0.5rem;
+  bottom: 0;
+  width: 100%;
+  height: 5%;
+  position: absolute;
   bottom: 0;
 }
 
