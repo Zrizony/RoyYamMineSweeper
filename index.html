@@ -15,34 +15,56 @@
   </head>
   <!-- Body -->
   <body onload="init()" class="body">
-    <h1>MineSweeper</h1>
+    <h1>MineSweeper 🧨</h1>
     <!-- btn -->
-    <div class="botton">
+    <div class="div-btn">
       <button onclick="init()" class="btn restart-btn">🙂</button>
+    </div>
+    <!-- timer -->
+    <div class="div-timer">
+      <span class="timer"></span>
     </div>
     <!-- settings -->
     <div class="settings">
-      <span class="timer"></span>
-      <span class="line">|</span>
       <span class="mines-counter"></span>
-      <span class="line">|</span>
       <span class="lives"></span>
     </div>
     <!-- radio -->
-    <div>
-      <input type="radio" name="radio" value="Noob" onclick="init()" checked />
-      <label for="Noob">Noob</label>
+    <div class="div-radio">
+      <div class="label-radio">
+        <label for="Noob">Noob |</label>
+        <label for="Normal">Normal |</label>
+        <label for="Pro">Pro</label>
+      </div>
+      <input
+        type="radio"
+        name="radio"
+        class="radio-opt"
+        value="Noob"
+        onclick="init()"
+        checked
+      />
 
-      <input type="radio" name="radio" value="Normal" onclick="init()" />
-      <label for="Normal">Normal</label>
+      <input
+        type="radio"
+        name="radio"
+        class="radio-opt middle"
+        value="Normal"
+        onclick="init()"
+      />
 
-      <input type="radio" name="radio" value="Pro" onclick="init()" />
-      <label for="Pro">Pro</label>
+      <input
+        type="radio"
+        name="radio"
+        class="radio-opt"
+        value="Pro"
+        onclick="init()"
+      />
     </div>
     <hr />
     <!-- board -->
     <div class="game">
-      <table border="1" cellpadding="10">
+      <table cellpadding="7">
         <tbody class="board"></tbody>
       </table>
     </div>

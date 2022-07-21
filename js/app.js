@@ -27,7 +27,7 @@ function init() {
   renderBoard();
   clearInterval(gGameInterval);
   elTimer.innerText = "Time Passed: 0";
-  elMinesLeft.innerText = `Mines Left: ${flagCounter}`;
+  elMinesLeft.innerText = `Mines Left: ${flagCounter} |`;
   elLivesLeft.innerText = `Lives Left: ${livesCounter}`;
   elResetBtn.innerHTML = "🙂";
 }
@@ -327,11 +327,9 @@ function showMines(cell) {
     }
   }
   livesCounter--;
-  console.log("lives:", livesCounter);
   if (livesCounter <= 0) {
     loss();
   }
-  console.log("you lose");
 }
 
 //-----Timer settings-----//
